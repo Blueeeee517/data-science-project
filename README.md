@@ -1,26 +1,26 @@
-# Data Science Project: Iris Flower Analysis
+# Data Science Project: Student Study Time and Scores Analysis
 
 ## Problem / Research Question
-Do different Iris flower species have different petal length distributions?
+Is there a relationship between the number of hours a student studies and their exam score?
 
 ## Dataset Source and Usage Permission
-The dataset is the built-in Iris dataset from scikit-learn. It is a public dataset commonly used for education and is not restricted.
+The dataset used in this project is a simulated dataset created for educational purposes. It contains no real student personal information and can be freely used.
 
 ## Methods and Tools
 - Python
-- pandas for data handling
-- matplotlib for visualization
-- scikit-learn for loading the public Iris dataset
+- pandas for data manipulation
+- matplotlib for data visualization
+- numpy for generating simulated data
 
 ## Key Findings
-The boxplot shows that Iris-setosa has a much shorter petal length than the other two species. This suggests that petal length is a useful feature for distinguishing species.
+The scatter plot shows a clear positive correlation: as study time increases, exam scores generally increase. Students who studied for more than 6 hours scored significantly higher on average.
 
 ## Limitation
-The dataset is small and only contains flower measurements. The finding may not generalize to other datasets or real-world biological studies.
+The dataset is simulated and relatively small. It does not account for other factors that affect scores, such as sleep, prior knowledge, or teaching quality.
 
 ## How to Run the Analysis
 1. Install dependencies:
    pip install -r requirements.txt
-2. Run:
+2. Run the script:
    python analysis.py
 3. Check the visualizations folder for the output images.
